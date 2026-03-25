@@ -80,6 +80,8 @@ int main()
     cin  >> starting_ip_string;
     cout << "Enter ending IP: ";
     cin  >> ending_ip_string;
+    cout << endl;
+    cout << "Scanning IPs " << starting_ip_string << "-" << ending_ip_string << "\n" << endl;
 
     // Converts the starting ip string into a real IPv4 address
     in_addr start_addr;
